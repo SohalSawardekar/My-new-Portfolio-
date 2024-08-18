@@ -16,7 +16,8 @@ module.exports = {
       colors: {
         'rain': "#91B3BC",
         'rain-100': '#5B7D87',
-        'slateGreen': '#2B4251'
+        'slate-green': '#1b2933',
+        'real-teal': "#405f73",
       },
 
       fontFamily: {
