@@ -7,7 +7,10 @@ export default function Home() {
     <main className="bg-slate-green min-h-screen">
       <Navbar />
       <Profile />
-      {/* <Footer /> */}
+      <br/>
+      <br/>
+      <br/>
+      <Footer />
     </main>
   );
 }
