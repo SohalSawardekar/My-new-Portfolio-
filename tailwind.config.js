@@ -20,6 +20,11 @@ module.exports = {
         'real-teal': "#405f73",
       },
 
+      screens: {
+        sm: "480px",
+        xl: "1024px"
+      },
+
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'], 
       },

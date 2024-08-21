@@ -10,12 +10,9 @@ export default function Profile() {
         <div className="font-poppins text-white">
             <div className="flex flex-col lg:flex-row items-center justify-center lg:h-[40rem] h-auto px-4">
                 <div className="bg-transparent w-full lg:w-1/2 h-full text-center flex items-center justify-center lg:justify-end mb-8 lg:mb-0">
-                    <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl xl:text-6xl lg:leading-normal font-bold">
-                        <br /><br />
-                        <span className="block lg:hidden"><br /></span> {/* Adds spacing on smaller screens */}
-                        Hello, I&apos;m <br/><br/> SOHAL SAWARDEKAR
-                        <br />
-                        <br />
+                    <div className="text-white text-3xl sm:text-4xl lg:text-5xl xl:text-6xl lg:leading-normal font-bold">
+                        <h1 className="xl:pb-8 sm:p-2">Hello, I'm</h1> 
+                        <h1 className="p-5 xl:pb-10">SOHAL SAWARDEKAR</h1> 
                         <TypeAnimation
                             sequence={[
                                 "Backend Developer",
@@ -32,7 +29,7 @@ export default function Profile() {
                             repeat={Infinity}
                             className="text-transparent bg-clip-text bg-gradient-to-br from-rain via-[#4098c8] to-[#8ab7ce] text-2xl sm:text-3xl lg:text-4xl xl:text-5xl"
                         />
-                    </h1>
+                    </div>
                 </div>
                 {/* Image Section */}
                 <div className="bg-transparent w-full lg:w-1/2 h-full text-center flex items-center justify-center">

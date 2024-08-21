@@ -5,7 +5,7 @@ import Footer from "./screens/footer"
 export default function Home() {
   return (
     <main className="bg-slate-green min-h-screen">
-      <Navbar />
+      <div className="pb-7"><Navbar /></div>
       <Profile />
       <br/>
       <br/>
